@@ -189,7 +189,7 @@ body {
     position: relative;
     background-image: url(./img/bg.jpg);
     background-position: top center;
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     background-color: #010E17;
     font-family: Museo Sans Cyrl;
@@ -221,6 +221,16 @@ body {
     margin-right: auto;
 }
 
+.main-header__menu-logo-img {
+    border: 1px solid transparent;
+    transition: .7s;
+    height: 100px;
+}
+
+.main-header__menu-logo-img:hover {
+    border: 1px solid rgba(159, 159, 159, 0.3);
+}
+
 .main-header__menu-link{
     font-family: 'Museo Sans Cyrl';
     font-style: normal;
@@ -237,6 +247,6 @@ body {
 
 .main-header__menu-link:hover {
     color: #9F9F9F;
-    border-bottom: 1px solid #9F9F9F;
+    border-bottom: 1px solid rgba(159, 159, 159, 0.3);
 }
 
