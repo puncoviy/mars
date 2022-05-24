@@ -145,6 +145,19 @@ table {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(./img/bg.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #010E17;
+    
+}
+
 @font-face {
     font-family: MuseoSansCyrlLight;
     src: url(./fonts/MuseoSansCyrl100.woff) format(woff),
