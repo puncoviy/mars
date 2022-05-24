@@ -1,0 +1,183 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: MuseoSansCyrlLight;
+    src: url(./fonts/MuseoSansCyrl100.woff) format(woff),
+        url(./fonts/MuseoSansCyrl100.eot) format(eot),
+        url(./fonts/MuseoSansCyrl100.ttf) format(ttf),
+        url(./fonts/MuseoSansCyrl100.otf) format(otf);         
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+@font-face {
+    font-family: MuseoSansCyrlNormal;
+    src: url(./fonts/MuseoSansCyrl300.woff) format(woff),
+        url(./fonts/MuseoSansCyrl300.eot) format(eot),
+        url(./fonts/MuseoSansCyrl300.ttf) format(ttf),
+        url(./fonts/MuseoSansCyrl300.otf) format(otf);         
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+@font-face {
+    font-family: MuseoSansCyrlBold;
+    src: url(./fonts/MuseoSansCyrl700.woff) format(woff),
+        url(./fonts/MuseoSansCyrl700.eot) format(eot),
+        url(./fonts/MuseoSansCyrl700.ttf) format(ttf),
+        url(./fonts/MuseoSansCyrl700.otf) format(otf);         
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
