@@ -250,3 +250,52 @@ body {
     border-bottom: 1px solid rgba(159, 159, 159, 0.3);
 }
 
+.main-title {
+    display: inline-block;
+    margin-top: 121px;
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 57px;
+    text-transform: uppercase;
+
+    background: linear-gradient(90deg, #F1F4FB 16.71%, #FF4500 91.07%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* background-clip: text;
+    text-fill-color: transparent; */
+}
+
+.main-title .subtitle {
+    text-transform: none;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.main-title__planet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -18%);
+    /* opacity: 0.3; */
+}
+
+.main-title__button {
+    display: block;
+    margin-top: 44px;
+    width: 180px;
+    height: 35px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+    color: #9F9F9F;
+
+    border: 1px solid;
+    border-image: linear-gradient(36deg, #FFFFFF 6%, #324F6D 12%, rgba(0, 0, 0, 0) 45.78%,#324F6D 87%, #FFFFFF 94%) 10;
+    transition: border-image .5s;
+}
+
+.main-title__button:hover {
+    border-image: linear-gradient(136deg, #FFFFFF 6%, #324F6D 12%, rgba(0, 0, 0, 0) 45.78%,#324F6D 87%, #FFFFFF 94%) 10;
+}
