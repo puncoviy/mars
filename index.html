@@ -28,22 +28,66 @@
                     <li class="main-header__menu-item"><a class="main-header__menu-link" href="#">О компании</a></li>
                     <li class="main-header__menu-item"><a class="main-header__menu-link" href="#">Контакты</a></li>
                 </ul>
+
+                <div id="burgerMenu">
+                    <!-- <span class="burger__top"></span> -->
+                    <span class="burger__center"></span>
+                    <!-- <span class="burger__bottom"></span> -->
+
+                    <ul id="menu">
+                        <li><a class="burger-link" href="#" onclick="hideMenu()">Главная</a></li>
+                        <li><a class="burger-link" href="#" onclick="hideMenu()">Технология</a></li>
+                        <li><a class="burger-link" href="#" onclick="hideMenu()">График полетов</a></li>
+                        <li><a class="burger-link" href="#" onclick="hideMenu()">Гарантии</a></li>
+                        <li><a class="burger-link" href="#" onclick="hideMenu()">О компании</a></li>
+                        <li><a class="burger-link" href="#" onclick="hideMenu()">Контакты</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
 
     <main>
         <div class="container">
-            <h1 class="main-title">Путешествие<br>
-            <span class="subtitle">на красную планету</span>
-            </h1>
+            <div class="hero-info">
+                <h1 class="main-title">Путешествие<br>
+                    <span class="subtitle">на красную планету</span>
+                    </h1>
+        
+                    <img class="main-title__planet" src="./img/mars.png" alt="planet mars">
+                    <a class="main-title__button" href="#">Начать путешествие</a>
+                    <div class="main-title__circle"></div>
+            </div>
 
-            <img class="main-title__planet" src="./img/mars.png" alt="planet mars">
-            <a class="main-title__button" href="#">Начать путешествие</a>
+            <div class="benefits">
+                <ul class="benefits__list">
+                    <li class="benefits__item">
+                        <p class="benefits__item-top">мы</p>
+                        <p class="benefits__item-strong">1</p>
+                        <p class="benefits__item-bottom">на рынке</p>
+                    </li>
+                    <li class="benefits__item">
+                        <p class="benefits__item-top">гаранитируем</p>
+                        <p class="benefits__item-strong">50%</p>
+                        <p class="benefits__item-bottom">безопасность</p>
+                    </li>
+                    <li class="benefits__item">
+                        <p class="benefits__item-top">календарик на</p>
+                        <p class="benefits__item-strong">2001<span>г.</span></p>
+                        <p class="benefits__item-bottom">в подарок</p>
+                    </li>
+                    <li class="benefits__item">
+                        <p class="benefits__item-top">путешествие</p>
+                        <p class="benefits__item-strong">597</p>
+                        <p class="benefits__item-bottom">дней</p>
+                    </li>
+                </ul>
+            </div>
         </div>
     </main>
 
-
+<div class="shader"></div>
+<script src="./index.js" type="text/javascript"></script>
 </body>
 
 </html>
