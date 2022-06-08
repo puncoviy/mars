@@ -610,7 +610,24 @@ body {
     }
 
     .main-title__planet {
-        top: 31.5%;
+        top: 39.5%;
+    }
+
+    .main-title__button {
+        margin-top: 154px;
+    }
+
+    .main-title__button::before {
+        top: 86px;
+        transform: rotate(45deg);
+    }
+
+    .main-title__button::after {
+        top: 139px;
+    }
+
+    .main-title__circle {
+        top: 103px;
     }
 
     .benefits {
@@ -618,7 +635,7 @@ body {
     }
 
     .benefits__list {
-        margin-top: 90px;
+        margin-top: 178px;
         flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
@@ -633,14 +650,14 @@ body {
     }
 
     .main-title__button {
-        margin-top: 430px;
+        margin-top: 164px;
         margin-left: auto;
         margin-right: auto;
         background-color: rgba(0,0,0,0.3);
     }
 
     .main-title__planet {
-        top: 30.5%;
+        top: 39%;
     }
 }
 
@@ -761,6 +778,7 @@ body {
         }
 
         .benefits__list {
+            margin-top: 233px;
             justify-content: center;
         }
 }
@@ -768,6 +786,10 @@ body {
 @media (max-width: 375px) {
         .main-title__button {
             margin-top: 279px;
+        }
+
+        .benefits__list {
+            margin-top: 46px;
         }
 
 }
